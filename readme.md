@@ -77,4 +77,18 @@ respective values are 1, 2 and 3
 Following this format, we can pass our starting coordinates and ending coordinates to the next page.
 We will have to create a click() event function on our navigate button to do that.
 
+Now we will need ar_navigation.html for the next screen and the corresponding files for it -
+ar_navigation.js and ar_navigation.css.
 
+
+In the JavaScript file, the first thing that we need to do is to fetch the query
+parameter.
+Let’s see how to do that now(in ar_navigation.js file).
+
+
+Now, there’s a method that gets the query parameters for us in JavaScript. It’s called
+URLSearchParams() that takes the query parameters and creates an object for the
+key-value pairs from it.
+
+We can get our query parameters from window.location.search. This gives us the
+following.
